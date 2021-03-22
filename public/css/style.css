@@ -12,11 +12,12 @@ section:nth-child(2) {
     border-bottom: 5px red solid;
 }
 
-.rouge h3,li {
+section:nth-child(3)>h3,
+section:nth-child(3)>ul {
     color: red;
 }
 
-li>a {
+section:nth-child(4)>li>a {
     font-size: 25px;
 }
 
