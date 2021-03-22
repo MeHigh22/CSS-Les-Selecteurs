@@ -4,7 +4,7 @@ section {
   border-style: solid;
 }
 
-section:first-child {
+section:first-child>h4 {
   color: blue;
 }
 
